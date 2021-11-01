@@ -1,6 +1,3 @@
-html {
-
-}
 
 body {
   margin: 0;
@@ -13,81 +10,97 @@ body {
 }
 
 .upper {
-  display: block;
   height: 40px;
   margin-top: 4px;
-}
-
-.aa {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  font-size: 11px;
+  font-size: 10px;
   align-items: center;
 }
-
 
 a {text-decoration: none; }
 a:hover {text-decoration: underline;}
 
-
 .gmail {
-  margin-right: 12px;
+  margin-right: 6px;
 }
 
 .image {
-  margin-right: 12px;
+  margin-right: 7.5px;
 }
 
-.dots {
-    margin-right: 12px;
+.apps {
+  height: 18px;
+  margin-right: 4px;
 }
 
 .login {
-    margin-right: 12px;
-    background-color: blue;
-    padding: 5px 20px;
+    margin-right: 14px;
+    background-color: #1A73E8;
+    padding: 5px 18px;
     border: none;
-    border-radius: 5px;
-    color: white;
+    border-radius: 3px;
+    font-size: 11px;
+    color:white;
 }
 
-.upper-middle {
+
+.middle {
+  margin-top:100px;
   height: 150px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .logo {
   max-height: 100%;
   max-width: 100%;
-  width: auto;
+  width: 220px;
   margin-bottom: 10px;
   align-items: center;
 }
 
 .search {
+  display: flex;
   align-items: center;
+  border-radius: 20px;
+  border: 1px solid #DFE1E5;
+  width: 450px;
+  height: 35px;
 }
 
-.middle {
-  display: flex;
-  justify-content: center;
+.glass {
+  width: 20px;
+  height: 20px;
+  padding-left: 10px;
+}
+
+.keyboard {
+  width: 20px;
+  height: 20px;
+  padding-left: 10px;
+}
+
+.mic {
+  width: 20px;
+  height: 20px;
+  padding-left: 10px;
 }
 
 .search input {
-  width: 400px;
-  height: 25px;
-  border-radius: 20px;
-  border: 1px solid #808080;
-  margin-top: 20px;
-
+  width: 335px;
+  height: 15px;
+  border: none;
+  margin-left: 10px;
 }
 
-img {
+input:focus {outline:none;}
+
+img .logo {
   height: 92px;
-  aspect-ratio: auto 272 / 92;
 }
 
 h1 {
@@ -96,7 +109,7 @@ h1 {
 
 }
 
-.lower-middle{
+.lower{
   display: flex;
   justify-content: center;
 }
@@ -107,6 +120,7 @@ h1 {
 
 .box button{
   width: auto;
+  background-color: #F8F9FA;
   height: 30px;
   margin-top: 15px;
   border: 0px;
@@ -123,7 +137,7 @@ footer {
   margin: 0;
   padding: 0;
   width: 100%;
-  background-color: gainsboro;
+  background-color: #F2F2F2;
 }
 
 footer .country{
@@ -145,7 +159,7 @@ footer .footer {
 }
 
 .footer .footer-left ul li{
-  padding-right: 10px;
+  padding-right: 15px;
 }
 
 
@@ -156,5 +170,5 @@ footer .footer {
 }
 
 .footer .footer-right ul li{
-  padding-right: 10px;
+  padding-right: 15px;
 }
