@@ -4,33 +4,36 @@
   <head>
     <title> practice 1 </title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="practice style.css">
+    <link rel="stylesheet" href="practice_style.css">
   </head>
   <body>
     <div id="practice">
-      <div class="upper">
-            <a class = "gmail"href="https://mail.google.com">Gmail</a>
-            <a class="image" href="https://www.google.co.kr/imghp?hl=ko&ogbl">이미지</a>
-            <a class="apps" href=""><img class="apps" src="./apps.png"></a>
-            <button class="login" onclick="location.href='https://accounts.google.com/'">로그인</button>
+      <div id="header">
+        <nav class="menubox">
+          <a class="item gmail" href="https://mail.google.com">Gmail</a>
+          <a class="item image" href="https://www.google.co.kr/imghp?hl=ko&ogbl" alt="9dots">이미지</a>
+          <a class="item apps" href="#"><img class="dots" src="C:\Users\희진\Desktop\WEB\practice 1\image/apps.png"></a>
+          <button class="item login" onclick="location.href='https://accounts.google.com/'">로그인</button>
+      </nav>
       </div>
-      <div class="middle">
-          <img class="logo" src= "./google.png">
-      <div class="search">
-            <img class="glass" src="./glass.png">
-            <input type="text"> </input>
-              <img class="keyboard" src="./keyboard.png">
-              <img class="mic" src="./mic.png">
+      <div id="contents">
+          <img class="logo" src= "C:\Users\희진\Desktop\WEB\practice 1\image/Google.png">
+          <div class="search">
+              <img class="icon glass" src="C:\Users\희진\Desktop\WEB\practice 1\image/glass.png">
+              <input type="text">
+              <img class="icon keyboard" src="C:\Users\희진\Desktop\WEB\practice 1\image/keyboard.png">
+              <img class="icon mic" src="C:\Users\희진\Desktop\WEB\practice 1\image/mic.png">
+         </div>
+         <div class="lower">
+             <div class="box">
+                 <button>Google 검색</button>
+                 <button>I'm Feeling Lucky</button>
+             </div>
+             <h2>마스크를 착용하고 코로나19 감염 확산 방지에 동참해주세요.<a class="more" href="#">더 알아보기</a></h2>
          </div>
       </div>
-      <div class="lower">
-        <div class="box">
-          <button>Google 검색</button>
-          <button>I'm Feeling Lucky</button>
-        </div>
-      </div>
     </div>
-    <footer>
+    <footer id="footer">
       <div class="country">
         <p> 대한민국 </p>
       </div>
